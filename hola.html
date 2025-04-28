@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>position</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu__items"><a class="items__links active" href="#">INICIO</a></li>
+                    <li class="menu__items"><a class="items__links" href="#">PERSONAJES</a></li>
+                    <li class="menu__items"><a class="items__links" href="#">TENDENCIA</a></li>
+                    <li class="menu__items"><a class="items__links" href="#">NOTICIAS</a></li>
+                </ul>
+            </nav>
+            <div class="header__text-title">
+                <div class="text-title-description">
+                    <h2 class="text-title-h2">Assassin's <br>
+                    creed</h2>
+                    <p class="text-title-p">Los juegos de Asassin's Creed llevan a los jugadores a distintos periodos de la Historia decisivos para la humanidad, como el Renacimiento Europeo, la Antigua Grecia o las cruzadas, entre otros. Todos ellos tienen en común un conflicto a lo largo de los siglos entre los Asesinos y los Templarios, y en la mayoría de ellos hay partes que transcurren en el presente.</p>
+                    <div class="title-description__button">
+                        <div class="button-redondo"><span class="fa-solid fa-play"></span></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <div class="section__frame" id="fondo">
+                <div class="frame__description-person">
+                    <div class="description-person__container-text">
+                        <img src="img/logo-brotherhood.png" alt="Logo Assasins Creed" width="50%" id="logo">
+                        <h2 id="titulo">ezio auditore</h2>
+                        <hr class="container-text__raya">
+                        <p id="parrafo">Ezio Auditore da Firenze (1459 - 1524) fue un noble florentino durante el <span style="color: #ff0000;">Renacimiento</span> y, sin que lo supieran la mayoría de los historiadores y filósofos, un Maestro Asesino y el Mentor de la Hermandad Italiana de Asesinos, un título que ostentó de 1503 a 1513. También es antepasado de William y Desmond Miles, así como de Clay Kaczmarek.</p>
+                        <a class="container__boton-comprar" href="https://www.ubisoft.com/es-mx/game/assassins-creed/the-ezio-collection">Comprar Ahora</a>
+                        <div class="container__plataformas">
+                            <span class="fa-brands fa-windows"></span>
+                            <span class="fa-brands fa-xbox"></span>
+                            <span class="fa-brands fa-playstation"></span>
+                            <span class="fa-brands fa-apple"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame__games-person">
+                <div class="games__person">
+                    <div class="person__autor selected">
+                        <img src="img/fondo-lahermandad-icono.jpg" alt="Enzio">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-altair-icono.jpg" alt="Altair">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-connor-icono.jpg" alt="Connor">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-edwart-icono.jpg" alt="Edwart">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-arnor-icono.jpg" alt="Arnor">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-jacob-frye-y-evie-frye-icono.jpg" alt="Jacob y Evie">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-lahermandad-icono.jpg" alt="enzio">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-lahermandad-icono.jpg" alt="enzio">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-lahermandad-icono.jpg" alt="enzio">
+                    </div>
+                    <div class="person__autor">
+                        <img src="img/fondo-lahermandad-icono.jpg" alt="enzio">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img src="https://i.redd.it/vo9vm1fcqrp71.jpg" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://wallpapers.com/images/hd/1920x1080-hd-space-73omyic75ep59863.jpg" alt="">
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://es.cgwallpapers.com/download.php?img=wallpaper_alena_velichko_08_1920x1080.jpg" alt="">
+                    </li>
+                  </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="js/menu_person.js"></script>
+    <script src="js/video__scroll.js"></script>
+    <script>
+        const config = {
+            type: "carousel",
+            perView: 1,
+            autoplay: 2000,
+            dragThreshold: 'false',
+        }
+        new Glide('.glide', config).mount()
+   </script>
+</body>
+</html>
